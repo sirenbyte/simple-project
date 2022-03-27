@@ -8,6 +8,7 @@ spring:
     hibernate:
       ddl-auto: validate
     database-platform: org.hibernate.dialect.PostgreSQL94Dialect
-
 app:
   jwtSecret: jwtToken
+server:
+  port: 80
